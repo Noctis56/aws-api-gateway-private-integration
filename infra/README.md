@@ -23,6 +23,7 @@
 | Name | Description |
 |------|-------------|
 | api\_invoke\_url | The URL to invoke the API pointing to the stage |
+| cognito\_endpoint | The endpoint name of the user pool |
 | nlb\_dns\_name | The DNS name of the load balancer |
 | security\_group\_poc\_id | The ID of the security group for POC |
 | subnet\_private\_ids | The list of the private subnet IDs |

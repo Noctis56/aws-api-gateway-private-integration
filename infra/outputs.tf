@@ -1,5 +1,10 @@
 # Outputs
 
+output "cognito_endpoint" {
+  description = "The endpoint name of the user pool"
+  value       = aws_cognito_user_pool.poc.endpoint
+}
+
 output "api_invoke_url" {
   description = "The URL to invoke the API pointing to the stage"
   value       = aws_api_gateway_deployment.v1.invoke_url
